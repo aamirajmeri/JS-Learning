@@ -39,10 +39,10 @@
 
 
 
-let n = Number(prompt("Enter your salary"));
+let salary = Number(prompt("Enter your salary"));
 // let msalary = 30000;
 
-if(n > 30000){
+if(salary > 30000){
     console.log("you are eligible of credit card");    
 }else{
     console.log("yor are not eligible of credit card");    
