@@ -70,12 +70,12 @@
 
 
 
-let km = Number(prompt("Enter your kilometers"));
+// let km = Number(prompt("Enter your kilometers"));
 
-const meter = 1000;
-meter = 10500; // as modi order 
+// const meter = 1000;
+// meter = 10500; // as modi order 
 
-console.log(km + "km =" + km * meter + "meter");
-console.log(km + "km =" + km * meter * 100 + "cm");
+// console.log(km + "km =" + km * meter + "meter");
+// console.log(km + "km =" + km * meter * 100 + "cm");
 
 
