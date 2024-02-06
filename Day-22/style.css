@@ -1,0 +1,19 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191825;
+    display: grid;
+    place-items: center;
+}
+.drum{
+    background-color: orangered;
+    color: white;
+    font-size: 50px;
+    padding: 24px 48px;
+}
+
+.author{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
