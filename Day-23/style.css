@@ -52,3 +52,8 @@ background: linear-gradient(189deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba
     color: white;
     font-weight: 900;
 }
+.score-label,.score-num{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 700;
+}
