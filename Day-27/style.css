@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #191825;
+}
+
+.label{
+    font-size: 12rem;
+    color: cyan;
+    font-weight: 900;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:1.8rem;
+    width: 60%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.btn{
+    font-size:2.4rem;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    background-color: cyan;
+    color: #191825;
+    border-radius:100%;
+
+}
