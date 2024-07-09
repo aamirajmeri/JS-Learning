@@ -11,7 +11,7 @@ const backgroundEl = document.querySelector(".main-container")
 
 
 btnEl.addEventListener("click",()=>{
-    let hashCode = "#" + Math.random().toString(16).substring(2,8);
+    let hashCode = "#" + Math.random().toString(16).substring(8,8);
     btnEl.innerHTML = hashCode; 
     backgroundEl.style.backgroundColor = hashCode;
 })
